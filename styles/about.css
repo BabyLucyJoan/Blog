@@ -1,0 +1,235 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F3F4D3;
+}
+
+header{
+    display: flex;
+    background-color: #182f02e2;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+header h1{
+    color: #FCEE21;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+header nav ul{
+    display: flex;
+    
+}
+
+nav li{
+    
+    list-style: none;
+    padding-top: 15px;
+    
+    
+}
+
+nav li a{
+    color: antiquewhite;
+    text-decoration: none;
+    justify-content: center;
+    padding-left: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    
+    
+}
+
+nav li a:hover{
+        
+    color: white;
+    transition: 0.7s;
+    cursor: pointer;
+     border: none;
+     text-decoration: underline;
+}
+
+.top_div h1{
+    color: #000;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.main{
+    display: flex;
+    padding:0 50px;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.left{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 50px;
+}
+ .right{
+        width: 40%;
+        padding-top: 30px;
+    }
+
+    .right img{
+        max-width: 20em;
+        min-height: 20em;
+    }
+
+    .mid_div h1{
+        color: #000;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 54px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+    }
+
+    .left h3{
+        color: #000;
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 500;
+    }
+
+    span{
+    
+        text-decoration: underline;
+    }
+
+    .bottom_div h1{
+        color: #000;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 54px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+    }
+
+    .bottom_div_img {
+        justify-content: center;
+        padding-left: 21%;
+    }
+
+    footer{
+        background-color: #183114;
+        justify-content: space-between;
+        padding: 30px 80px;
+        margin-top: 70px;
+    }
+    
+    footer h1{
+        color: #FCEE21;
+        text-align: start;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .footer_text{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    
+    }
+    
+    .footer_text p{
+        color: #DCDE9F;
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .left_list ul li{
+        
+        list-style: none;
+        padding-top: 15px;
+        
+        
+    }
+    
+    .left_list ul li a{
+        color: #DCDE9F;
+        text-decoration: none;
+        justify-content: center;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        
+        
+    }
+    
+    .right_list ul li{
+        
+        list-style: none;
+        padding-top: 15px;
+        
+        
+    }
+    
+    .right_list ul li a{
+        color: #DCDE9F;
+        text-decoration: none;
+        justify-content: center;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        
+        
+    }
+    footer li a:hover{
+        
+        color: white;
+        transition: 0.7s;
+        cursor: pointer;
+         border: none;
+         text-decoration: underline;
+    }
+    footer img{
+        margin-left: 250px;
+        margin-top: 50px;
+    }
+    
+    footer p{
+        color: #DCDE9F;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-top: 50px;
+    }
